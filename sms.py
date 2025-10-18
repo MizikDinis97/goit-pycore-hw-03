@@ -9,8 +9,6 @@ def normalize_phone(phone_number):
         return "+" + phone_number
     elif phone_number.startswith("0"):
         return "+38" + phone_number
-    else:
-        return "+38" + phone_number
     
 numbers = [
     "    +38(050)123-32-34",
